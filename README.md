@@ -9,7 +9,7 @@ The objective was to transform raw, inconsistent data into a clean, analysis-rea
 
 ---
 
-## 🧰 Tools & Skills Used
+##  Tools & Skills Used
 - MySQL 8.0
 - SQL (CTEs, Window Functions, CASE statements)
 - Data Cleaning & Preprocessing
@@ -19,7 +19,7 @@ The objective was to transform raw, inconsistent data into a clean, analysis-rea
 
 ---
 
-## 📊 Dataset Summary
+##  Dataset Summary
 - **Raw Records:** 10,000  
 - **Final Records:** 9,808  
 - **Columns:** 11  
@@ -27,7 +27,7 @@ The objective was to transform raw, inconsistent data into a clean, analysis-rea
 
 ---
 
-## 🧠 Data Quality Framework
+##  Data Quality Framework
 The dataset was assessed using six key data quality dimensions:
 
 - **Completeness** – Handling NULL and missing values  
@@ -39,7 +39,7 @@ The dataset was assessed using six key data quality dimensions:
 
 ---
 
-## 🧹 Data Cleaning Process
+##  Data Cleaning Process
 
 ### 🔹 1. Duplicate Removal
 - Removed 192 duplicate records  
@@ -97,7 +97,7 @@ Used **median imputation** (robust to outliers):
 
 ---
 
-## 📈 Before vs After
+##  Before vs After
 
 | Metric | Before | After |
 |------|--------|-------|
@@ -112,7 +112,7 @@ Used **median imputation** (robust to outliers):
 
 ---
 
-## 🛠️ SQL Techniques Demonstrated
+##  SQL Techniques Demonstrated
 - `ROW_NUMBER()` for deduplication  
 - `REGEXP` for pattern detection  
 - `STR_TO_DATE()` for date parsing  
@@ -125,7 +125,7 @@ Used **median imputation** (robust to outliers):
 
 ---
 
-## 📁 Project Files
+##  Project Files
 | File | Description |
 |------|-------------|
 | `logistic.sql` | Full SQL cleaning script |
@@ -134,7 +134,7 @@ Used **median imputation** (robust to outliers):
 
 ---
 
-## 💡 Key Takeaways
+##  Key Takeaways
 - Demonstrates real-world data cleaning using SQL  
 - Applies structured data quality assessment methodology  
 - Balances data integrity with practical cleaning techniques  
